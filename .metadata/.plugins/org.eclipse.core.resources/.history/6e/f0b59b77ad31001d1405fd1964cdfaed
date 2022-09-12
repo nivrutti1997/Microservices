@@ -1,0 +1,5 @@
+package com.niv.client;
+
+public interface StockPriceClient {
+
+}

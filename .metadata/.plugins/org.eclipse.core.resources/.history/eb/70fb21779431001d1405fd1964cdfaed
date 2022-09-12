@@ -1,0 +1,5 @@
+package com.niv.repo;
+
+public class StockPriceRestController {
+
+}

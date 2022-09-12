@@ -1,0 +1,11 @@
+server:
+  port: 2222
+spring:
+  application:
+    name: STOCK-CALC-API
+eureka:
+  client:
+    serviceUrl:
+      
+
+    
