@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.niv.entity.StockPrice;
@@ -28,6 +30,13 @@ public class StockPriceRestController {
 		stockPriceObj.setPortNo(portNo);
 		return new ResponseEntity<StockPrice>(stockPriceObj, HttpStatus.OK);
 		
+	}
+	
+	@PostMapping("/addStock")
+	public ResponseEntity<String> saveStockInfo(@RequestBody StockPrice stockPrice){
+		stockPriceRepo.save(stockPrice);		
+		String msg = "Stock added successfully...!!";
+		return new ResponseEntity<String>(msg, HttpStatus.OK);
 	}
 	
 }
