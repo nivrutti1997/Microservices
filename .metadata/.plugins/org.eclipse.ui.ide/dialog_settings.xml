@@ -6,8 +6,8 @@
 		<item value="org.eclipse.buildship:3.1.6.v20220511-1359"/>
 		<item value="org.eclipse.egit.gitflow.feature:6.2.0.202206071550-r"/>
 		<item value="org.eclipse.egit:6.2.0.202206071550-r"/>
-		<item value="org.eclipse.emf.common:2.26.0.v20220325-0806"/>
-		<item value="org.eclipse.emf.ecore:2.28.0.v20220426-0617"/>
+		<item value="org.eclipse.emf.common:2.27.0.v20220817-1401"/>
+		<item value="org.eclipse.emf.ecore:2.29.0.v20220817-1401"/>
 		<item value="org.eclipse.epp.mpc:1.10.0.v20220502-0731"/>
 		<item value="org.eclipse.help:2.3.1000.v20220607-0700"/>
 		<item value="org.eclipse.jdt:3.18.1200.v20220607-0700"/>
@@ -36,4 +36,19 @@
 		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.5.202002191804"/>
 	</list>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Training\Spring Security\Spring-Section-2"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
 </section>

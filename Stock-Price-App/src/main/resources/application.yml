@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: STOCK-PRICE-APP
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
   
 #  data:
 #    mongodb:
@@ -11,6 +14,16 @@ spring:
 #      port: 27017
 #      database: STOCK-DATABASE
 
+logging:
+  file:
+    path: /var/tmp/
+    name: /var/tmp/mylog.log
+    
+
+    
+
+
+  
     
        
 #  datasource:

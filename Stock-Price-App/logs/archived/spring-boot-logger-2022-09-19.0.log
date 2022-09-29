@@ -1,0 +1,1099 @@
+2022-09-19 12:26:49,315 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-19 12:26:50,167 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 12:26:52,150 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 12:26:52,154 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 12:26:52,204 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 12:26:53,386 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 12:26:53,696 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 289 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 12:26:54,146 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 12:26:54,963 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 12:26:54,995 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 12:26:54,998 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 12:26:55,000 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 12:26:55,193 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 12:26:55,207 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2966 ms
+2022-09-19 12:26:55,508 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 12:26:55,698 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632812b71c1d316044f22c3d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:62}] to localhost:27017
+2022-09-19 12:26:55,698 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='632812b71c1d316044f22c3d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:63}] to localhost:27017
+2022-09-19 12:26:55,700 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632812b71c1d316044f22c3d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=68552500}
+2022-09-19 12:26:55,860 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 12:26:56,110 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 12:26:56,212 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 12:26:57,175 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 12:26:57,851 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 12:26:58,256 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 12:26:58,517 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 12:26:58,600 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 12:26:58,623 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 12:26:58,680 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 12:26:58,682 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 12:26:58,684 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 12:26:58,685 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 12:26:58,686 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 12:26:58,689 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 12:26:58,692 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 12:26:59,303 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 12:26:59,312 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 12:26:59,322 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 12:26:59,334 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663570619332 with initial instances count: 2
+2022-09-19 12:26:59,337 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 12:26:59,341 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663570619341, current=UP, previous=STARTING]
+2022-09-19 12:26:59,345 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 12:26:59,345 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 12:26:59,424 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 12:26:59,427 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 12:26:59,429 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 12:26:59,701 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 12:26:59,731 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 12:26:59,797 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 12:27:00,053 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 11.676 seconds (JVM running for 13.673)
+2022-09-19 12:27:20,817 INFO org.apache.juli.logging.DirectJDKLog [http-nio-1111-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-19 12:27:20,831 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-19 12:27:20,836 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Completed initialization in 3 ms
+2022-09-19 12:27:26,255 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-2] [getStockPrice]
+2022-09-19 12:27:26,389 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-1111-exec-2] Opened connection [connectionId{localValue:3, serverValue:64}] to localhost:27017
+2022-09-19 12:27:26,469 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-2] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:27:26,474 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-2] Port No : 1111
+2022-09-19 12:27:29,344 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-3] [getStockPrice]
+2022-09-19 12:27:29,366 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-3] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:27:29,369 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-3] Port No : 1111
+2022-09-19 12:27:29,909 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] [getStockPrice]
+2022-09-19 12:27:29,926 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:27:29,928 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] Port No : 1111
+2022-09-19 12:27:30,113 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-5] [getStockPrice]
+2022-09-19 12:27:30,123 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-5] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:27:30,127 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-5] Port No : 1111
+2022-09-19 12:27:30,288 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-6] [getStockPrice]
+2022-09-19 12:27:30,304 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-6] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:27:30,305 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-6] Port No : 1111
+2022-09-19 12:27:30,484 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-7] [getStockPrice]
+2022-09-19 12:27:30,503 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-7] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:27:30,504 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-7] Port No : 1111
+2022-09-19 12:27:30,634 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-8] [getStockPrice]
+2022-09-19 12:27:30,640 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-8] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:27:30,643 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-8] Port No : 1111
+2022-09-19 12:31:58,709 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 12:34:13,688 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.niv.StockPriceAppApplicationTests], using SpringBootContextLoader
+2022-09-19 12:34:13,701 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.niv.StockPriceAppApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-09-19 12:34:13,703 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.niv.StockPriceAppApplicationTests]: StockPriceAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-09-19 12:34:13,889 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.niv.StockPriceAppApplication for test class com.niv.StockPriceAppApplicationTests
+2022-09-19 12:34:14,143 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-09-19 12:34:14,172 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3f19b8b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7de0c6ae, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@a486d78, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@cdc3aae, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ef2d7a6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5dcbb60, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c36250e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@21526f6c, org.springframework.test.context.event.EventPublishingTestExecutionListener@49f5c307, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@299266e2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5471388b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@66ea1466, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1601e47, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3bffddff, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@66971f6b]
+2022-09-19 12:34:16,101 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:1006
+2022-09-19 12:34:18,658 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 12:34:18,660 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 12:34:18,722 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-09-19 12:34:19,996 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 12:34:20,226 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 215 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 12:34:20,733 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=755b92e4-d16a-3bc6-8b22-9b307aa3f30b
+2022-09-19 12:34:21,375 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 12:34:21,534 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6328147574fcd13a0a9ff7b3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:65}] to localhost:27017
+2022-09-19 12:34:21,534 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6328147574fcd13a0a9ff7b3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:66}] to localhost:27017
+2022-09-19 12:34:21,535 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6328147574fcd13a0a9ff7b3', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=55566100}
+2022-09-19 12:34:21,675 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 12:34:21,954 WARN org.springframework.data.convert.CustomConversions [main] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 12:34:23,560 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 12:34:25,160 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-09-19 12:34:25,600 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 12:34:25,665 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-09-19 12:34:25,848 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-09-19 12:34:25,862 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-09-19 12:34:25,915 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-09-19 12:34:25,916 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-09-19 12:34:25,918 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-09-19 12:34:25,918 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-09-19 12:34:25,919 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-09-19 12:34:25,921 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-09-19 12:34:25,921 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-09-19 12:34:26,531 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-09-19 12:34:26,541 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-09-19 12:34:26,547 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 12:34:26,573 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1663571066570 with initial instances count: 3
+2022-09-19 12:34:26,584 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 12:34:26,585 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1663571066585, current=UP, previous=STARTING]
+2022-09-19 12:34:26,591 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 12:34:26,592 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2022-09-19 12:34:26,639 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2022-09-19 12:34:26,699 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 12:34:26,720 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2022-09-19 12:34:26,965 INFO org.springframework.boot.StartupInfoLogger [main] Started StockPriceAppApplicationTests in 12.63 seconds (JVM running for 15.08)
+2022-09-19 12:34:27,929 INFO com.niv.controller.StockPriceRestController [main] [getStockPrice]
+2022-09-19 12:34:28,071 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Opened connection [connectionId{localValue:3, serverValue:67}] to localhost:27017
+2022-09-19 12:34:28,169 INFO com.niv.controller.StockPriceRestController [main] stockPriceObj : StockPrice(stockId=104, portNo=null, companyName=SBI, companyPrice=450.0)
+2022-09-19 12:34:28,170 INFO com.niv.controller.StockPriceRestController [main] Port No : 1111
+2022-09-19 12:34:28,239 INFO com.niv.controller.StockPriceRestController [main] [getStockPrice]
+2022-09-19 12:34:28,246 INFO com.niv.controller.StockPriceRestController [main] stockPriceObj : StockPrice(stockId=102, portNo=null, companyName=HCL, companyPrice=500.0)
+2022-09-19 12:34:28,247 INFO com.niv.controller.StockPriceRestController [main] Port No : 1111
+2022-09-19 12:34:28,265 INFO com.niv.controller.StockPriceRestController [main] [getStockPrice]
+2022-09-19 12:34:28,272 INFO com.niv.controller.StockPriceRestController [main] stockPriceObj : StockPrice(stockId=105, portNo=null, companyName=HDFC, companyPrice=6000.0)
+2022-09-19 12:34:28,273 INFO com.niv.controller.StockPriceRestController [main] Port No : 1111
+2022-09-19 12:34:28,285 INFO com.niv.controller.StockPriceRestController [main] [getStockPrice]
+2022-09-19 12:34:28,292 INFO com.niv.controller.StockPriceRestController [main] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:34:28,293 INFO com.niv.controller.StockPriceRestController [main] Port No : 1111
+2022-09-19 12:34:28,309 INFO com.niv.controller.StockPriceRestController [main] [getStockPrice]
+2022-09-19 12:34:28,315 INFO com.niv.controller.StockPriceRestController [main] stockPriceObj : StockPrice(stockId=101, portNo=null, companyName=TCS, companyPrice=3000.0)
+2022-09-19 12:34:28,316 INFO com.niv.controller.StockPriceRestController [main] Port No : 1111
+2022-09-19 12:34:28,425 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 12:34:28,426 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1663571068426, current=DOWN, previous=UP]
+2022-09-19 12:34:28,427 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 12:34:28,434 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 12:34:28,463 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-09-19 12:34:31,476 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-09-19 12:34:31,484 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 12:34:31,497 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-09-19 12:34:59,527 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - Re-registering apps/STOCK-PRICE-APP
+2022-09-19 12:34:59,539 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 12:34:59,545 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 12:36:58,736 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 12:41:58,750 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 12:46:58,765 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 12:50:13,654 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-1] [getStockPrice]
+2022-09-19 12:50:13,661 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-1] stockPriceObj : StockPrice(stockId=104, portNo=null, companyName=SBI, companyPrice=450.0)
+2022-09-19 12:50:13,663 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-1] Port No : 1111
+2022-09-19 12:51:47,147 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-3] [getStockPrice]
+2022-09-19 12:51:47,162 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-3] stockPriceObj : StockPrice(stockId=104, portNo=null, companyName=SBI, companyPrice=450.0)
+2022-09-19 12:51:47,164 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-3] Port No : 1111
+2022-09-19 12:51:47,218 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] [getStockPrice]
+2022-09-19 12:51:47,223 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] stockPriceObj : StockPrice(stockId=101, portNo=null, companyName=TCS, companyPrice=3000.0)
+2022-09-19 12:51:47,224 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] Port No : 1111
+2022-09-19 12:51:47,243 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-5] [getStockPrice]
+2022-09-19 12:51:47,247 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-5] stockPriceObj : StockPrice(stockId=102, portNo=null, companyName=HCL, companyPrice=500.0)
+2022-09-19 12:51:47,249 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-5] Port No : 1111
+2022-09-19 12:51:47,270 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-6] [getStockPrice]
+2022-09-19 12:51:47,275 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-6] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 12:51:47,277 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-6] Port No : 1111
+2022-09-19 12:51:58,891 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 12:56:58,910 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:01:58,934 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:06:58,956 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:08:32,020 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-9] [getStockPrice]
+2022-09-19 13:08:32,038 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-9] stockPriceObj : StockPrice(stockId=104, portNo=null, companyName=SBI, companyPrice=450.0)
+2022-09-19 13:08:32,041 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-9] Port No : 1111
+2022-09-19 13:08:38,599 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-10] [getStockPrice]
+2022-09-19 13:08:38,607 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-10] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 13:08:38,608 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-10] Port No : 1111
+2022-09-19 13:11:58,984 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:14:19,386 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-2] [getStockPrice]
+2022-09-19 13:14:19,406 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-2] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 13:14:19,408 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-2] Port No : 1111
+2022-09-19 13:16:58,990 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:19:59,017 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-1] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 13:19:59,030 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-1] Saw local status change event StatusChangeEvent [timestamp=1663573799029, current=DOWN, previous=UP]
+2022-09-19 13:19:59,033 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:19:59,045 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:19:59,099 INFO com.netflix.discovery.DiscoveryClient [Thread-1] Shutting down DiscoveryClient ...
+2022-09-19 13:20:02,103 WARN com.netflix.discovery.TimedSupervisorTask [DiscoveryClient-0] task supervisor shutting down, can't accept the task
+2022-09-19 13:20:02,106 INFO com.netflix.discovery.DiscoveryClient [Thread-1] Unregistering ...
+2022-09-19 13:20:02,122 INFO com.netflix.discovery.DiscoveryClient [Thread-1] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 13:20:02,134 INFO com.netflix.discovery.DiscoveryClient [Thread-1] Completed shut down of DiscoveryClient
+2022-09-19 13:20:02,652 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 13:20:04,122 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 13:20:04,123 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 13:20:04,152 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 13:20:04,621 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 13:20:04,636 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 13:20:04,721 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 13:20:04,811 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 13:20:04,812 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:20:04,812 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 13:20:04,812 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 13:20:04,875 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 13:20:04,875 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 718 ms
+2022-09-19 13:20:04,906 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 13:20:04,912 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='63281f2c1c1d316044f22c3e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:5, serverValue:72}] to localhost:27017
+2022-09-19 13:20:04,912 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='63281f2c1c1d316044f22c3e', description='null'}-localhost:27017] Opened connection [connectionId{localValue:4, serverValue:71}] to localhost:27017
+2022-09-19 13:20:04,913 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='63281f2c1c1d316044f22c3e', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4210900}
+2022-09-19 13:20:04,913 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:20:04,943 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 13:20:04,962 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:20:05,116 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 13:20:05,374 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 13:20:05,534 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 13:20:05,576 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 13:20:05,583 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 13:20:05,583 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 13:20:05,587 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 13:20:05,587 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 13:20:05,588 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 13:20:05,589 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 13:20:05,589 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 13:20:05,589 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 13:20:05,590 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 13:20:05,619 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 13:20:05,621 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 13:20:05,622 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 13:20:05,626 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663573805626 with initial instances count: 3
+2022-09-19 13:20:05,627 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 13:20:05,629 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663573805629, current=UP, previous=STARTING]
+2022-09-19 13:20:05,630 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:20:05,632 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:20:05,639 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 13:20:05,640 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 13:20:05,657 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:20:05,810 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 13:20:05,812 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 13:20:05,818 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 13:20:05,867 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 3.648 seconds (JVM running for 3199.486)
+2022-09-19 13:20:05,870 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-19 13:20:17,400 INFO org.apache.juli.logging.DirectJDKLog [http-nio-1111-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-19 13:20:17,400 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-19 13:20:17,403 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Completed initialization in 3 ms
+2022-09-19 13:20:48,057 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-8] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 13:20:48,057 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-8] Saw local status change event StatusChangeEvent [timestamp=1663573848057, current=DOWN, previous=UP]
+2022-09-19 13:20:48,059 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:20:48,066 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:20:48,100 INFO com.netflix.discovery.DiscoveryClient [Thread-8] Shutting down DiscoveryClient ...
+2022-09-19 13:20:51,105 INFO com.netflix.discovery.DiscoveryClient [Thread-8] Unregistering ...
+2022-09-19 13:20:51,110 INFO com.netflix.discovery.DiscoveryClient [Thread-8] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 13:20:51,119 INFO com.netflix.discovery.DiscoveryClient [Thread-8] Completed shut down of DiscoveryClient
+2022-09-19 13:20:51,831 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 13:20:53,659 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 13:20:53,660 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 13:20:53,706 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 13:20:54,326 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 13:20:54,340 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 13:20:54,449 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 13:20:54,556 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 13:20:54,557 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:20:54,558 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 13:20:54,558 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 13:20:54,660 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 13:20:54,661 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 950 ms
+2022-09-19 13:20:54,694 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 13:20:54,704 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='63281f5e1c1d316044f22c3f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:6, serverValue:73}] to localhost:27017
+2022-09-19 13:20:54,704 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='63281f5e1c1d316044f22c3f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:7, serverValue:74}] to localhost:27017
+2022-09-19 13:20:54,704 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='63281f5e1c1d316044f22c3f', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4209200}
+2022-09-19 13:20:54,705 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:20:54,749 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 13:20:54,773 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:20:54,974 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 13:20:55,320 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 13:20:55,549 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 13:20:55,601 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 13:20:55,606 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 13:20:55,606 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 13:20:55,609 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 13:20:55,610 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 13:20:55,610 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 13:20:55,610 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 13:20:55,611 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 13:20:55,611 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 13:20:55,612 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 13:20:55,646 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 13:20:55,648 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 13:20:55,651 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 13:20:55,654 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663573855654 with initial instances count: 3
+2022-09-19 13:20:55,656 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 13:20:55,657 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663573855657, current=UP, previous=STARTING]
+2022-09-19 13:20:55,657 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:20:55,660 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:20:55,675 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 13:20:55,676 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 13:20:55,685 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:20:55,754 INFO org.apache.juli.logging.DirectJDKLog [http-nio-1111-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-19 13:20:55,754 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-19 13:20:55,756 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Completed initialization in 2 ms
+2022-09-19 13:20:55,942 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 13:20:55,945 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 13:20:55,954 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 13:20:55,987 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 4.738 seconds (JVM running for 3249.607)
+2022-09-19 13:20:55,993 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-19 13:22:50,729 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-15] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 13:22:50,729 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-15] Saw local status change event StatusChangeEvent [timestamp=1663573970729, current=DOWN, previous=UP]
+2022-09-19 13:22:50,730 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:22:50,737 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:22:50,795 INFO com.netflix.discovery.DiscoveryClient [Thread-15] Shutting down DiscoveryClient ...
+2022-09-19 13:22:53,811 INFO com.netflix.discovery.DiscoveryClient [Thread-15] Unregistering ...
+2022-09-19 13:22:53,816 INFO com.netflix.discovery.DiscoveryClient [Thread-15] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 13:22:53,828 INFO com.netflix.discovery.DiscoveryClient [Thread-15] Completed shut down of DiscoveryClient
+2022-09-19 13:22:54,596 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 13:22:56,909 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 13:22:56,910 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 13:22:56,947 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 13:22:57,434 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 13:22:57,449 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 13:22:57,521 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 13:22:57,606 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 13:22:57,607 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:22:57,607 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 13:22:57,608 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 13:22:57,672 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 13:22:57,672 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 719 ms
+2022-09-19 13:22:57,697 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 13:22:57,704 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='63281fd91c1d316044f22c40', description='null'}-localhost:27017] Opened connection [connectionId{localValue:8, serverValue:75}] to localhost:27017
+2022-09-19 13:22:57,705 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='63281fd91c1d316044f22c40', description='null'}-localhost:27017] Opened connection [connectionId{localValue:9, serverValue:76}] to localhost:27017
+2022-09-19 13:22:57,705 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='63281fd91c1d316044f22c40', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2862100}
+2022-09-19 13:22:57,707 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:22:57,747 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 13:22:57,763 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:22:57,902 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 13:22:58,136 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 13:22:58,344 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 13:22:58,391 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 13:22:58,397 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 13:22:58,397 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 13:22:58,399 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 13:22:58,400 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 13:22:58,400 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 13:22:58,400 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 13:22:58,400 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 13:22:58,401 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 13:22:58,401 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 13:22:58,433 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 13:22:58,434 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 13:22:58,436 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 13:22:58,443 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663573978443 with initial instances count: 3
+2022-09-19 13:22:58,445 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 13:22:58,445 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663573978445, current=UP, previous=STARTING]
+2022-09-19 13:22:58,445 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:22:58,446 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:22:58,458 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 13:22:58,461 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 13:22:58,467 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:22:58,629 INFO org.apache.juli.logging.DirectJDKLog [http-nio-1111-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-19 13:22:58,629 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-19 13:22:58,632 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Completed initialization in 3 ms
+2022-09-19 13:22:58,679 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 13:22:58,680 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 13:22:58,686 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 13:22:58,726 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 4.805 seconds (JVM running for 3372.346)
+2022-09-19 13:22:58,730 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-19 13:23:45,712 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-22] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 13:23:45,713 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-22] Saw local status change event StatusChangeEvent [timestamp=1663574025713, current=DOWN, previous=UP]
+2022-09-19 13:23:45,713 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:23:45,721 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:23:45,767 INFO com.netflix.discovery.DiscoveryClient [Thread-22] Shutting down DiscoveryClient ...
+2022-09-19 13:23:48,772 INFO com.netflix.discovery.DiscoveryClient [Thread-22] Unregistering ...
+2022-09-19 13:23:48,779 INFO com.netflix.discovery.DiscoveryClient [Thread-22] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 13:23:48,784 INFO com.netflix.discovery.DiscoveryClient [Thread-22] Completed shut down of DiscoveryClient
+2022-09-19 13:23:49,352 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 13:23:51,072 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 13:23:51,073 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 13:23:51,119 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 13:23:51,502 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 13:23:51,516 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 13:23:51,598 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 13:23:51,660 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 13:23:51,661 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:23:51,661 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 13:23:51,662 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 13:23:51,714 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 13:23:51,715 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 591 ms
+2022-09-19 13:23:51,741 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 13:23:51,746 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6328200f1c1d316044f22c41', description='null'}-localhost:27017] Opened connection [connectionId{localValue:10, serverValue:77}] to localhost:27017
+2022-09-19 13:23:51,747 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='6328200f1c1d316044f22c41', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2807100}
+2022-09-19 13:23:51,748 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='6328200f1c1d316044f22c41', description='null'}-localhost:27017] Opened connection [connectionId{localValue:11, serverValue:78}] to localhost:27017
+2022-09-19 13:23:51,750 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:23:51,776 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 13:23:51,795 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:23:51,911 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 13:23:52,120 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 13:23:52,258 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 13:23:52,286 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 13:23:52,291 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 13:23:52,292 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 13:23:52,294 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 13:23:52,294 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 13:23:52,294 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 13:23:52,294 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 13:23:52,294 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 13:23:52,294 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 13:23:52,294 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 13:23:52,321 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 13:23:52,324 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 13:23:52,326 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 13:23:52,327 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663574032327 with initial instances count: 3
+2022-09-19 13:23:52,328 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 13:23:52,329 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663574032329, current=UP, previous=STARTING]
+2022-09-19 13:23:52,330 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:23:52,333 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:23:52,346 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 13:23:52,347 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 13:23:52,353 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:23:52,533 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 13:23:52,534 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 13:23:52,541 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 13:23:52,559 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 3.656 seconds (JVM running for 3426.179)
+2022-09-19 13:23:52,562 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-19 13:23:53,444 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-29] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 13:23:53,444 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-29] Saw local status change event StatusChangeEvent [timestamp=1663574033444, current=DOWN, previous=UP]
+2022-09-19 13:23:53,444 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:23:53,451 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:23:53,495 INFO com.netflix.discovery.DiscoveryClient [Thread-29] Shutting down DiscoveryClient ...
+2022-09-19 13:23:56,502 INFO com.netflix.discovery.DiscoveryClient [Thread-29] Unregistering ...
+2022-09-19 13:23:56,510 INFO com.netflix.discovery.DiscoveryClient [Thread-29] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 13:23:56,514 INFO com.netflix.discovery.DiscoveryClient [Thread-29] Completed shut down of DiscoveryClient
+2022-09-19 13:23:57,058 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 13:23:58,678 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 13:23:58,678 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 13:23:58,719 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 13:23:59,089 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 13:23:59,098 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 13:23:59,171 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 13:23:59,251 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 13:23:59,252 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:23:59,252 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 13:23:59,253 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 13:23:59,353 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 13:23:59,354 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 629 ms
+2022-09-19 13:23:59,380 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 13:23:59,386 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632820171c1d316044f22c42', description='null'}-localhost:27017] Opened connection [connectionId{localValue:12, serverValue:79}] to localhost:27017
+2022-09-19 13:23:59,387 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632820171c1d316044f22c42', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3887000}
+2022-09-19 13:23:59,387 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:23:59,388 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='632820171c1d316044f22c42', description='null'}-localhost:27017] Opened connection [connectionId{localValue:13, serverValue:80}] to localhost:27017
+2022-09-19 13:23:59,407 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 13:23:59,422 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:23:59,506 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 13:23:59,701 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 13:23:59,842 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 13:23:59,869 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 13:23:59,871 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 13:23:59,872 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 13:23:59,874 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 13:23:59,875 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 13:23:59,876 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 13:23:59,876 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 13:23:59,877 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 13:23:59,877 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 13:23:59,877 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 13:23:59,900 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 13:23:59,902 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 13:23:59,904 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 13:23:59,905 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663574039905 with initial instances count: 3
+2022-09-19 13:23:59,906 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 13:23:59,906 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663574039906, current=UP, previous=STARTING]
+2022-09-19 13:23:59,907 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:23:59,908 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:23:59,919 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 13:23:59,921 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 13:23:59,932 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:24:00,082 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 13:24:00,082 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 13:24:00,088 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 13:24:00,109 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 3.495 seconds (JVM running for 3433.729)
+2022-09-19 13:24:00,112 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-19 13:24:13,639 INFO org.apache.juli.logging.DirectJDKLog [http-nio-1111-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-19 13:24:13,640 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-19 13:24:13,643 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Completed initialization in 3 ms
+2022-09-19 13:28:59,887 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:29:23,297 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-36] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 13:29:23,298 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-36] Saw local status change event StatusChangeEvent [timestamp=1663574363298, current=DOWN, previous=UP]
+2022-09-19 13:29:23,298 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:29:23,304 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:29:23,339 INFO com.netflix.discovery.DiscoveryClient [Thread-36] Shutting down DiscoveryClient ...
+2022-09-19 13:29:26,352 INFO com.netflix.discovery.DiscoveryClient [Thread-36] Unregistering ...
+2022-09-19 13:29:26,358 INFO com.netflix.discovery.DiscoveryClient [Thread-36] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 13:29:26,365 INFO com.netflix.discovery.DiscoveryClient [Thread-36] Completed shut down of DiscoveryClient
+2022-09-19 13:29:26,902 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 13:29:28,649 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 13:29:28,649 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 13:29:28,686 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 13:29:29,059 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 13:29:29,068 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 13:29:29,135 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 13:29:29,251 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 13:29:29,257 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:29:29,262 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 13:29:29,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 13:29:29,333 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 13:29:29,333 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 640 ms
+2022-09-19 13:29:29,358 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 13:29:29,364 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632821611c1d316044f22c43', description='null'}-localhost:27017] Opened connection [connectionId{localValue:14, serverValue:81}] to localhost:27017
+2022-09-19 13:29:29,364 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='632821611c1d316044f22c43', description='null'}-localhost:27017] Opened connection [connectionId{localValue:15, serverValue:82}] to localhost:27017
+2022-09-19 13:29:29,364 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632821611c1d316044f22c43', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2556900}
+2022-09-19 13:29:29,365 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:29:29,387 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 13:29:29,403 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:29:29,527 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 13:29:29,861 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 13:29:30,037 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 13:29:30,078 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 13:29:30,083 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 13:29:30,084 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 13:29:30,087 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 13:29:30,088 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 13:29:30,089 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 13:29:30,089 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 13:29:30,089 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 13:29:30,090 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 13:29:30,090 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 13:29:30,120 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 13:29:30,124 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 13:29:30,126 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 13:29:30,130 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663574370130 with initial instances count: 3
+2022-09-19 13:29:30,132 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 13:29:30,132 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663574370132, current=UP, previous=STARTING]
+2022-09-19 13:29:30,133 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:29:30,134 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:29:30,145 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 13:29:30,149 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 13:29:30,151 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:29:30,323 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 13:29:30,325 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 13:29:30,329 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 13:29:30,358 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 3.86 seconds (JVM running for 3763.978)
+2022-09-19 13:29:30,362 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-19 13:29:35,629 INFO org.apache.juli.logging.DirectJDKLog [http-nio-1111-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-19 13:29:35,629 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-19 13:29:35,634 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Completed initialization in 4 ms
+2022-09-19 13:30:50,126 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-43] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 13:30:50,130 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-43] Saw local status change event StatusChangeEvent [timestamp=1663574450130, current=DOWN, previous=UP]
+2022-09-19 13:30:50,133 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:30:50,143 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:30:50,205 INFO com.netflix.discovery.DiscoveryClient [Thread-43] Shutting down DiscoveryClient ...
+2022-09-19 13:30:53,213 INFO com.netflix.discovery.DiscoveryClient [Thread-43] Unregistering ...
+2022-09-19 13:30:53,217 INFO com.netflix.discovery.DiscoveryClient [Thread-43] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 13:30:53,223 INFO com.netflix.discovery.DiscoveryClient [Thread-43] Completed shut down of DiscoveryClient
+2022-09-19 13:30:53,995 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 13:30:56,343 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 13:30:56,343 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 13:30:56,362 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 13:30:56,681 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 13:30:56,690 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 13:30:56,766 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 13:30:56,864 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 13:30:56,865 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:30:56,866 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 13:30:56,866 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 13:30:56,989 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 13:30:56,989 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 623 ms
+2022-09-19 13:30:57,028 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 13:30:57,036 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='632821b91c1d316044f22c44', description='null'}-localhost:27017] Opened connection [connectionId{localValue:17, serverValue:83}] to localhost:27017
+2022-09-19 13:30:57,036 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632821b91c1d316044f22c44', description='null'}-localhost:27017] Opened connection [connectionId{localValue:16, serverValue:84}] to localhost:27017
+2022-09-19 13:30:57,037 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632821b91c1d316044f22c44', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3541400}
+2022-09-19 13:30:57,038 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:30:57,068 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 13:30:57,086 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:30:57,255 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 13:30:57,478 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 13:30:57,643 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 13:30:57,675 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 13:30:57,678 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 13:30:57,679 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 13:30:57,681 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 13:30:57,681 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 13:30:57,681 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 13:30:57,681 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 13:30:57,681 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 13:30:57,682 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 13:30:57,682 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 13:30:57,701 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 13:30:57,703 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 13:30:57,704 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 13:30:57,706 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663574457706 with initial instances count: 3
+2022-09-19 13:30:57,707 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 13:30:57,709 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663574457709, current=UP, previous=STARTING]
+2022-09-19 13:30:57,709 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:30:57,710 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:30:57,719 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 13:30:57,721 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 13:30:57,726 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:30:57,876 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 13:30:57,877 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 13:30:57,883 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 13:30:57,912 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 4.547 seconds (JVM running for 3851.532)
+2022-09-19 13:30:57,916 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-19 13:30:58,794 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-50] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 13:30:58,795 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-50] Saw local status change event StatusChangeEvent [timestamp=1663574458795, current=DOWN, previous=UP]
+2022-09-19 13:30:58,795 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:30:58,799 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:30:58,844 INFO com.netflix.discovery.DiscoveryClient [Thread-50] Shutting down DiscoveryClient ...
+2022-09-19 13:31:01,858 INFO com.netflix.discovery.DiscoveryClient [Thread-50] Unregistering ...
+2022-09-19 13:31:01,862 INFO com.netflix.discovery.DiscoveryClient [Thread-50] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - deregister  status: 200
+2022-09-19 13:31:01,868 INFO com.netflix.discovery.DiscoveryClient [Thread-50] Completed shut down of DiscoveryClient
+2022-09-19 13:31:02,398 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:1006
+2022-09-19 13:31:03,969 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Located environment: name=STOCK-PRICE-APP, profiles=[default], label=null, version=2ac13eea51c791c4cce255184779e1905e8333dd, state=null
+2022-09-19 13:31:03,969 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [restartedMain] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://gitlab.com/nivruttiraut1997/Config.git/file:C:\Users\NIVRUT~1\AppData\Local\Temp\config-repo-5086306175162702510\application.yml'}]
+2022-09-19 13:31:03,997 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-09-19 13:31:04,359 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-19 13:31:04,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 MongoDB repository interfaces.
+2022-09-19 13:31:04,448 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=dfbbfe1d-d706-38df-bcbc-64926e3d53eb
+2022-09-19 13:31:04,549 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-09-19 13:31:04,550 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:31:04,550 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-19 13:31:04,550 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-09-19 13:31:04,661 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-19 13:31:04,661 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 660 ms
+2022-09-19 13:31:04,680 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-09-19 13:31:04,686 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632821c01c1d316044f22c45', description='null'}-localhost:27017] Opened connection [connectionId{localValue:18, serverValue:85}] to localhost:27017
+2022-09-19 13:31:04,687 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='632821c01c1d316044f22c45', description='null'}-localhost:27017] Opened connection [connectionId{localValue:19, serverValue:86}] to localhost:27017
+2022-09-19 13:31:04,687 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='632821c01c1d316044f22c45', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2650100}
+2022-09-19 13:31:04,687 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:31:04,709 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-09-19 13:31:04,720 WARN org.springframework.data.convert.CustomConversions [restartedMain] Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-09-19 13:31:04,807 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-09-19 13:31:04,995 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2022-09-19 13:31:05,143 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-19 13:31:05,166 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-09-19 13:31:05,169 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-09-19 13:31:05,169 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-09-19 13:31:05,172 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-09-19 13:31:05,173 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-09-19 13:31:05,173 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-09-19 13:31:05,173 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-09-19 13:31:05,173 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-09-19 13:31:05,174 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-09-19 13:31:05,174 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-09-19 13:31:05,191 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-09-19 13:31:05,193 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-09-19 13:31:05,195 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-19 13:31:05,197 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1663574465197 with initial instances count: 3
+2022-09-19 13:31:05,198 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application STOCK-PRICE-APP with eureka with status UP
+2022-09-19 13:31:05,199 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1663574465199, current=UP, previous=STARTING]
+2022-09-19 13:31:05,199 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 13:31:05,200 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-1111"]
+2022-09-19 13:31:05,211 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-09-19 13:31:05,212 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 1111
+2022-09-19 13:31:05,216 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 13:31:05,367 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2022-09-19 13:31:05,368 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2022-09-19 13:31:05,372 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2022-09-19 13:31:05,401 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started StockPriceAppApplication in 3.398 seconds (JVM running for 3859.021)
+2022-09-19 13:31:05,405 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-09-19 13:31:13,919 INFO org.apache.juli.logging.DirectJDKLog [http-nio-1111-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-19 13:31:13,919 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-19 13:31:13,924 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1111-exec-1] Completed initialization in 4 ms
+2022-09-19 13:35:35,618 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] [getStockPrice]
+2022-09-19 13:35:35,629 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-1111-exec-4] Opened connection [connectionId{localValue:20, serverValue:87}] to localhost:27017
+2022-09-19 13:35:35,649 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] stockPriceObj : StockPrice(stockId=103, portNo=null, companyName=AXIS, companyPrice=4500.0)
+2022-09-19 13:35:35,650 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-4] Port No : 1111
+2022-09-19 13:36:05,184 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:41:05,188 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:46:05,192 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:51:05,194 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 13:56:05,209 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:01:05,223 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:06:05,226 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:11:05,228 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:16:05,238 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:21:05,249 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:21:36,508 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-9] [getStockPrice]
+2022-09-19 14:21:36,517 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-9] stockPriceObj : StockPrice(stockId=104, portNo=null, companyName=SBI, companyPrice=450.0)
+2022-09-19 14:21:36,518 INFO com.niv.controller.StockPriceRestController [http-nio-1111-exec-9] Port No : 1111
+2022-09-19 14:26:05,255 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:34:55,894 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:39:55,908 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:44:55,915 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:49:55,927 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-09-19 14:52:56,386 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(185)-127.0.0.1] Application shutdown requested.
+2022-09-19 14:52:56,390 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(185)-127.0.0.1] Unregistering application STOCK-PRICE-APP with eureka with status DOWN
+2022-09-19 14:52:56,390 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(185)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1663579376390, current=DOWN, previous=UP]
+2022-09-19 14:52:56,391 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111: registering service...
+2022-09-19 14:52:56,417 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - registration status: 204
+2022-09-19 14:52:56,450 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(185)-127.0.0.1] Pausing ProtocolHandler ["http-nio-1111"]
+2022-09-19 14:52:56,450 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(185)-127.0.0.1] Stopping service [Tomcat]
+2022-09-19 14:52:56,451 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(185)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-19 14:52:56,458 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(185)-127.0.0.1] Stopping ProtocolHandler ["http-nio-1111"]
+2022-09-19 14:52:56,463 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(185)-127.0.0.1] Destroying ProtocolHandler ["http-nio-1111"]
+2022-09-19 14:52:56,474 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(185)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-09-19 14:52:57,648 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 22 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 35 more
+
+2022-09-19 14:52:57,648 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": An established connection was aborted by the software in your host machine; nested exception is java.net.SocketException: An established connection was aborted by the software in your host machine stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": An established connection was aborted by the software in your host machine; nested exception is java.net.SocketException: An established connection was aborted by the software in your host machine
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 19 more
+
+2022-09-19 14:52:57,649 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-09-19 14:52:57,649 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": An established connection was aborted by the software in your host machine; nested exception is java.net.SocketException: An established connection was aborted by the software in your host machine
+2022-09-19 14:52:57,665 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 33 more
+
+2022-09-19 14:52:57,666 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-HeartbeatExecutor-0] Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-09-19 14:52:57,667 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 23 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 36 more
+
+2022-09-19 14:52:57,667 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [DiscoveryClient-CacheRefreshExecutor-0] Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-09-19 14:52:57,668 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1135)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:1016)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1531)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2022-09-19 14:52:57,674 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-19 14:52:59,482 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(185)-127.0.0.1] Unregistering ...
+2022-09-19 14:52:59,492 INFO com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient [RMI TCP Connection(185)-127.0.0.1] Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:711)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:602)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:87)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 75 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 88 more
+
+2022-09-19 14:52:59,493 WARN com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient [RMI TCP Connection(185)-127.0.0.1] Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-09-19 14:52:59,493 ERROR com.netflix.discovery.DiscoveryClient [RMI TCP Connection(185)-127.0.0.1] DiscoveryClient_STOCK-PRICE-APP/Clairvoyant-676:STOCK-PRICE-APP:1111 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:196)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:189)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1106)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1075)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:172)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1021)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
+	at jdk.internal.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor56.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-09-19 14:52:59,499 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(185)-127.0.0.1] Completed shut down of DiscoveryClient
